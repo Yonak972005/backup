@@ -1,0 +1,209 @@
+.process{
+    &__title-container{
+        padding: 4%;
+        border-bottom: 1px solid hsl(220, 14%, 75%);        
+        box-shadow: 0px 10px 20px -20px rgba(0,0,0,0.27);
+    }
+
+    &__tittle{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 350%;
+        font-weight: 900;
+    }
+
+    &__text{
+        font-size: 200%;
+        margin-left: 2%;
+        margin-right: 2%;
+        justify-content: space-between;
+    }
+
+    &__text p{
+        padding: 2%;
+    }
+
+    &__container-image{
+        text-align: center;
+    }
+
+    &__container-image2{
+        text-align: center;
+    }
+
+    &__container-image img{
+        width: 80%;
+        border-radius: 20px;
+
+    }
+
+    &__container-image2 img{
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    &__lista{
+        justify-content: space-between;
+        padding-left: 6%;
+        margin-left: 40px;
+    }
+
+    @media  (min-width: 990px){
+        width: 100%;
+        
+        &__title-container{
+            padding: 4%;
+            border-bottom: 1px solid hsl(220, 14%, 75%);        
+            box-shadow: 0px 10px 20px -20px rgba(0,0,0,0.27);
+        }
+    
+        &__tittle{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-size: 390%;
+            font-weight: 900;
+        }
+    
+        &__text{
+            font-size: 300%;
+            margin-left: 2%;
+            margin-right: 2%;
+            justify-content: space-between;
+        }
+    
+        &__text p{
+            padding: 2%;
+        }
+    
+        &__container-image{
+            text-align: center;
+        }
+    
+        &__container-image2{
+            text-align: center;
+        }
+    
+        &__container-image img{
+            width: 80%;
+            border-radius: 20px;
+    
+        }
+    
+        &__container-image2 img{
+            width: 80%;
+            border-radius: 20px;
+        }
+    
+        &__lista{
+            justify-content: space-between;
+            padding-left: 6%;
+            margin-left: 40px;
+        }
+    }
+
+
+
+    @media  (min-width: 1100px){
+        width: 100%;
+        
+        &__title-container{
+            padding: 15px;
+            margin: 10px;
+            border-bottom: 1px solid hsl(220, 14%, 75%);        
+            box-shadow: 0px 10px 20px -20px rgba(0,0,0,0.27);
+        }
+
+        &__tittle{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-size: 230%;
+            font-weight: 900;
+        }
+
+        &__text{
+            padding: 0px 10%;
+            padding-bottom: 70px;
+            font-size: 200%;
+        }
+
+        &__text p{
+            padding: 1%;
+            font-size: 18px;
+            margin: 1%;
+        }
+
+        &__container-image{
+            width: 42%;
+            float: left;
+        }
+
+        &__container-image2{
+            width: 42%;
+            float: right;
+        }
+
+        &__container-image img{
+            border-radius: 10px;
+        }
+
+        &__container-image2 img{
+            border-radius: 10px;
+        }
+
+        &__lista{
+            font-size: 16px;
+        }
+    }
+
+    @media  (min-width: 2000px){
+        width: 100%;
+        
+        &__title-container{
+            padding: 15px;
+            margin: 10px;
+            border-bottom: 1px solid hsl(220, 14%, 75%);        
+            box-shadow: 0px 10px 20px -20px rgba(0,0,0,0.27);
+        }
+
+        &__tittle{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-size: 300%;
+            font-weight: 900;
+        }
+
+        &__text{
+            padding: 0px 10%;
+            padding-bottom: 70px;
+        }
+
+        &__text p{
+            padding: 1%;
+            font-size: 100%;
+            margin: 1%;
+        }
+
+        &__container-image{
+            width: 42%;
+            float: left;
+        }
+
+        &__container-image2{
+            width: 42%;
+            float: right;
+        }
+
+        &__container-image img{
+            border-radius: 10px;
+        }
+
+        &__container-image2 img{
+            border-radius: 10px;
+        }
+
+        &__lista{
+            font-size: 100%;
+        }
+    }
+    
+}

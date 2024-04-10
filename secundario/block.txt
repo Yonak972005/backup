@@ -1,0 +1,7 @@
+sass sass/canastillas.scss canastilla.css --watch 
+sass sass/style.scss style.css --watch
+sass sass/proceso.scss proceso.css --watch
+sass sass/contactenos.scss contactenos.css --watch
+sass sass/estibas.scss estibas.css --watch
+sass sass/venta.scss venta.css --watch           
+@use 'mixins';

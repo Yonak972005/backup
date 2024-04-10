@@ -1,0 +1,86 @@
+.sub-header{
+        background-image: url(./images/back.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        margin: 1%;
+
+    &__title{
+        color: white;
+        text-align: center;
+        font-size: 270%;
+        padding-top: 8%;
+        padding-bottom: 2%;
+    }
+
+    &__subtitle{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 150%;
+        padding: 3% 3%;
+        padding-bottom: 6%;
+    }
+
+    @media  (min-width: 990px){
+        margin: 1%;
+        &__title{
+            color: white;
+            text-align: center;
+            font-size: 290%;
+            padding-top: 8%;
+            padding-bottom: 2%;
+        }
+    
+        &__subtitle{
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 200%;
+            padding: 3% 3%;
+            padding-bottom: 6%;
+        }
+    }
+
+    @media  (min-width: 1100px){
+        margin: auto;
+        width: 100%;
+        margin-top: 1%;
+
+        &__title{
+            color: white;
+            text-align: center;
+            font-size: 150%;
+            padding-top: 5%;
+            padding-bottom: 1%;
+        }
+
+        &__subtitle{
+            color: white;
+            text-align: center;
+            font-size: 100%;
+            padding: 10px 5%;
+            padding-bottom: 6%;
+        }
+    }
+
+    @media (min-width: 2000px){
+        margin: auto;
+        width: 100%;
+        margin-top: 1%;
+
+        &__title{
+            color: white;
+            text-align: center;
+            font-size: 250%;
+            padding-top: 5%;
+            padding-bottom: 1%;
+        }
+
+        &__subtitle{
+            color: white;
+            text-align: center;
+            font-size: 200%;
+            padding: 10px 5%;
+            padding-bottom: 6%;
+        }
+    }
+}

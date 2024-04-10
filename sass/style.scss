@@ -1,0 +1,23 @@
+@use 'initial';
+@use 'header';
+@use 'navbar';
+@use 'modal-navbar';
+@use 'sub-header';
+@use 'container';
+@use 'process';
+
+.main-container{
+    width:100%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 4%;
+
+    @media  (min-width: 1100px){
+        width: 80%;
+        height: auto;
+    }
+}
+
+.link{
+    color: black;
+    }

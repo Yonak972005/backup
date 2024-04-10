@@ -1,0 +1,37 @@
+@use 'initial';
+@use 'header';
+@use 'navbar';
+@use 'modal-navbar';
+@use 'contact';
+
+.main-container{
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+    @media (min-width: 1100px){
+        width: 80%;
+        height: auto;
+    }
+
+    @media (min-width: 2000px){
+        width: 80%;
+        height: auto;
+    }
+}
+
+.content{
+    @media  (min-width: 1100px){
+        width: 100%;
+        display: flex;
+        padding: 5% 5%;
+        gap: 124px;
+    }
+
+    @media (min-width: 2000px){
+        width: 100%;
+        display: flex;
+        padding: 5% 5%;
+        gap: 124px;
+    }
+}

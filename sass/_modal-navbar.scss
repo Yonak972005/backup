@@ -1,0 +1,38 @@
+@use 'mixins';
+
+.modal-navbar{
+    &__background{
+        @include mixins.modal-background;
+
+    }
+
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    height: 100%;
+    padding: 28px 24px;
+    
+    &__items{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+        list-style: none;
+        margin-top: 15%;
+        margin-left: 6%;
+    }
+    &__link{
+        text-decoration: none;
+        color: hsl(220, 13%, 13%);
+        font-weight: 700;
+        font-size: 50px;
+    }
+    &__close-icon{
+        margin: 3%;
+        width: 6%;
+    }
+    &__close-icon:hover{
+        scale: (1.2);
+        cursor: pointer;
+    }
+
+}

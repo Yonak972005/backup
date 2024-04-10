@@ -1,0 +1,357 @@
+.contact{
+    text-align: center;
+    align-items: center;
+
+    padding-top: 1%;
+    margin-bottom: 2%;
+
+    &__title-container{
+        padding: 2%;
+        border-bottom: 1px solid hsl(128, 58%, 40%);        
+        box-shadow: 0px 10px 20px -20px rgba(0,0,0,0.27);
+        margin-bottom: 4%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    &__tittle{
+        color: hsl(128, 58%, 40%);
+        text-align: center;
+        font-size: 350%;
+        font-weight: 900;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    &__telefono h3{
+        color: hsl(128, 58%, 40%);
+        text-align: center;
+        font-size: 400%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    &__telefono p{
+        color: hsl(0, 0%, 0%);
+        text-align: center;
+        font-size: 250%;
+        font-weight: 600;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+    }
+
+    &__direccion h3{
+        color: hsl(128, 58%, 40%);
+        text-align: center;
+        font-size: 400%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    &__direccion p{
+        color: hsl(0, 0%, 0%);
+        text-align: center;
+        font-size: 250%;
+        font-weight: 600;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+    }
+
+    &__whatsapp h3{
+        color: hsl(128, 58%, 40%);
+        text-align: center;
+        font-size: 350%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    &__whatsapp p{
+        color: hsl(0, 0%, 0%);
+        text-align: center;
+        font-size: 250%;
+        font-weight: 500;
+        margin-bottom: 3%;
+    }
+
+    &__redirect{
+        background-color: green;
+        border-radius: 15px;
+        margin: 4%;
+        margin-bottom: 5%;
+    }
+
+    &__redirect img{
+        width: 25%;
+        height: 100%;
+        float: left;
+        margin: 1%;
+    }
+
+    &__redirect p{
+        float: right;
+        font-size: 300%;
+        margin-right: 20%;
+        margin-top: 5%;
+        color: white;
+    }
+    
+
+    @media  (min-width: 990px){
+        padding-top: 1%;
+        margin-bottom: 3%;
+    
+        &__tittle{
+            color: hsl(128, 58%, 40%);
+            text-align: center;
+            font-size: 400%;
+            font-weight: 900;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        &__telefono h3{
+            color: hsl(128, 58%, 40%);
+            text-align: center;
+            font-size: 450%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        &__telefono p{
+            color: hsl(0, 0%, 0%);
+            text-align: center;
+            font-size: 300%;
+            font-weight: 600;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 3%;
+        }
+    
+        &__direccion h3{
+            color: hsl(128, 58%, 40%);
+            text-align: center;
+            font-size: 450%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        &__direccion p{
+            color: hsl(0, 0%, 0%);
+            text-align: center;
+            font-size: 300%;
+            font-weight: 600;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 3%;
+        }
+    
+        &__whatsapp h3{
+            color: hsl(128, 58%, 40%);
+            text-align: center;
+            font-size: 450%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        &__whatsapp p{
+            color: hsl(0, 0%, 0%);
+            text-align: center;
+            font-size: 300%;
+            font-weight: 500;
+            margin-bottom: 3%;
+        }
+
+        &__redirect{
+            background-color: green;
+            border-radius: 15px;
+            margin: 4%;
+            margin-bottom: 5%;
+            &:hover{
+                cursor: pointer;
+                scale: 1.1;
+            }
+        }
+    
+        &__redirect img{
+            border: 1px solid green;
+            width: 25%;
+            height: 100%;
+            float: left;
+            margin: 1%;
+        }
+    
+        &__redirect p{
+            float: right;
+            font-size: 320%;
+            margin-right: 20%;
+            margin-top: 5%;
+            color: white;
+        }
+    }
+
+    @media  (min-width: 1100px){
+        width: 100%;
+
+        &__tittle{
+            color: hsl(128, 58%, 40%);
+            text-align: center;
+            font-size: 200%;
+            font-weight: 900;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        &__telefono h3{
+            color: hsl(128, 58%, 40%);
+            text-align: center;
+            font-size: 200%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        &__telefono p{
+            color: hsl(0, 0%, 0%);
+            text-align: center;
+            font-size: 150%;
+            font-weight: 600;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 3%;
+        }
+    
+        &__direccion h3{
+            color: hsl(128, 58%, 40%);
+            text-align: center;
+            font-size: 200%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        &__direccion p{
+            color: hsl(0, 0%, 0%);
+            text-align: center;
+            font-size: 150%;
+            font-weight: 600;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 3%;
+        }
+    
+        &__whatsapp h3{
+            color: hsl(128, 58%, 40%);
+            text-align: center;
+            font-size: 200%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        &__whatsapp p{
+            color: hsl(0, 0%, 0%);
+            text-align: center;
+            font-size: 150%;
+            font-weight: 500;
+            margin-bottom: 3%;
+        }
+    
+        &__redirect{
+            background-color: green;
+            width: 30%;
+            &:hover{
+                cursor: pointer;
+                scale: 1.1;
+            }
+        }
+    
+        &__redirect p{
+            color: white;
+        }
+        
+    }
+    
+    @media (min-width: 2000px){
+        width: 100%;
+
+        &__tittle{
+            color: hsl(128, 58%, 40%);
+            text-align: center;
+            font-size: 400%;
+            font-weight: 900;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        &__telefono h3{
+            color: hsl(128, 58%, 40%);
+            text-align: center;
+            font-size: 400%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        &__telefono p{
+            color: hsl(0, 0%, 0%);
+            text-align: center;
+            font-size: 250%;
+            font-weight: 600;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 3%;
+        }
+    
+        &__direccion h3{
+            color: hsl(128, 58%, 40%);
+            text-align: center;
+            font-size: 400%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        &__direccion p{
+            color: hsl(0, 0%, 0%);
+            text-align: center;
+            font-size: 250%;
+            font-weight: 600;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 3%;
+        }
+    
+        &__whatsapp h3{
+            color: hsl(128, 58%, 40%);
+            text-align: center;
+            font-size: 350%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        &__whatsapp p{
+            color: hsl(0, 0%, 0%);
+            text-align: center;
+            font-size: 250%;
+            font-weight: 500;
+            margin-bottom: 3%;
+        }
+    
+        &__redirect{
+            background-color: green;
+            width: 40%;
+            border-radius: 15px;
+            &:hover{
+                cursor: pointer;
+                scale: 1.1;
+            }
+        }
+    
+        &__redirect img{
+            width: 20%;
+        }
+
+        &__redirect p{
+            color: white;
+            margin-left: 10%;
+        }
+    
+    }
+}
